@@ -1,3 +1,5 @@
+
+```python
 import base64
 
 def xrule_encrypt(text: str) -> str:
@@ -32,3 +34,4 @@ if __name__ == "__main__":
 
     decrypted = xrule_decrypt(encrypted)
     print("解密后：", decrypted)
+```
